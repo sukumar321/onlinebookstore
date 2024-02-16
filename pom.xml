@@ -47,6 +47,12 @@
 				<configuration>
 					<warSourceDirectory>WebContent</warSourceDirectory>
 				</configuration>
+				<properties>
+		<sonar.host.url>http://13.239.12.21:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 			</plugin>
 		</plugins>
 	</build>
